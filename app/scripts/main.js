@@ -1,6 +1,6 @@
 (function () {
     var margin = {top: 20, right: 80, bottom: 30, left: 50},
-        frame = {width: 800, height: 500},
+        frame = {width: 750, height: 500},
         width = frame.width - margin.left - margin.right,
         height = frame.height  - margin.top - margin.bottom;
 
@@ -53,7 +53,7 @@
             .attr('y', 6)
             .attr('dy', '.71em')
             .style('text-anchor', 'end')
-            .text('Temperature');
+            .text('Temperature (℉)');
 
         //plot temperature values
         svg.append('path')
@@ -71,7 +71,7 @@
             .attr('transform', 'rotate(-90)')
             .attr('y', 35)
             .style('text-anchor', 'end')
-            .text('Humidity');
+            .text('Relative Humidity (%)');
 
         //plot humidity values
         svg.append('path')
