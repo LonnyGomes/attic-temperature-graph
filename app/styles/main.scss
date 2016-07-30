@@ -7,6 +7,7 @@ $icon-font-path: '../fonts/';
 $temperature-clr: red;
 $humidity-clr: steelblue;
 
+//D3 styles
 .axis {
   font: 10px sans-serif;
 }
@@ -41,7 +42,12 @@ $humidity-clr: steelblue;
 .axis-title.humidity {
   fill: $humidity-clr;
 }
+/////////
 
+.info-text {
+  background-color: #ccc;
+  padding: 5px 10px;
+}
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -86,16 +92,6 @@ body {
 
 .container-narrow > hr {
   margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
 }
 
 /* Supporting marketing content */
