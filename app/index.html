@@ -17,7 +17,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
@@ -26,7 +26,7 @@
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
+
     <div class="container">
       <div class="header">
         <!--<ul class="nav nav-pills pull-right">
@@ -34,22 +34,22 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>-->
-        <h3 class="text-muted">Attic Temperature and Humidity</h3>
+        <h3 class="text-muted">Attic Temperature and Relative Humidity</h3>
       </div>
 
       <div id="chart"></div>
-      
+
       <div class="row marketing">
         <div class="col-lg-12">
-          <p>This data was generated with a Raspberry Pi wired into a temperature and humidty sensor and represents the head pattern in our attic.</p>
+          <p class="info-text">This data was generated with an <a href="https://www.adafruit.com/products/385">Adafruit temperature and humidty sensor</a> wired into a Raspberry Pi that collected temperature and relative humidity readings of our attic for 24 hours. The timeseries was then plotted on chart to visualize the relationship.</p>
         </div>
       </div>
 
       <div class="footer">
-        <p>♥ Visualized with D3</p>
+        <p>📈 This timeseries data was visualized with D3</p>
       </div>
     </div>
-    
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -66,7 +66,7 @@
     <script src="/bower_components/d3/d3.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -81,7 +81,7 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
